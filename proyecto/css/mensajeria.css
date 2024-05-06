@@ -1,0 +1,287 @@
+.mensajes{
+	width: 850px;
+	margin-left: 20%;
+	position: relative;
+	top: 70px;
+	background: lightblue;
+	padding: 30px;
+	border-radius: 10px;
+	
+}
+
+.tituloMsj{
+	font-family: calibri;
+}
+
+.CambiarBandejaR{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.CambiarBandejaE{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.enviados{
+	display: none;
+}
+
+.btnEnviados{
+	padding: 10px;
+	background: royalblue;
+	font-family: verdana;
+	font-size: 14px;
+	color: white;
+	border-radius: 7px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btnEnviados:hover{
+	background: deepskyblue ;
+	color: black;
+}
+
+.btnRecibidos{
+	padding: 10px;
+	background-color: royalblue;
+	font-family: verdana;
+	font-size: 14px;
+	color: white;
+	border-radius: 7px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btnRecibidos:hover{
+	background: deepskyblue ;
+	color: black;
+}
+
+
+.Benviados{
+	background:rgba(235, 235, 235, 1);
+	width: 100%;
+	margin-top: 20px;
+}
+
+.Brecibidos{
+	background: rgba(255, 255, 255, 1.0);
+	width: 100%;
+	margin-top: 20px;
+}
+
+.btnMensaje{
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background: dimgray;
+	padding: 8px;
+	border: 2px solid black;
+	cursor: pointer;
+	font-family: verdana;
+}
+
+.btnMensaje:hover{
+	background: darkcyan;
+	color: white;
+}
+
+.codigoMsj{
+	display: none;
+}
+
+.responder{
+	background: dimgray;
+	color: white;
+	padding: 7px;
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.responder:hover{
+	background: darkcyan;
+	color: whitesmoke;
+}
+
+
+#modal{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	box-shadow: 0 0 20px 0 black;
+	background-color: #171519;
+	margin-top: 60px;
+	border: none;
+
+}
+
+
+#modal::backdrop{
+	background: rgba(0, 0, 0, .6);
+}
+
+.tituloFormMsj{
+	text-align: center;
+	color: rgba(240, 240, 240, .8);
+	font-size: 2em;
+}
+
+.formNuevoMsj form p{
+	margin: 0;
+	padding: 1.5em;
+
+}
+
+.formNuevoMsj option{
+	color:black;
+}
+
+.formNuevoMsj form button,
+.formNuevoMsj form input,
+.formNuevoMsj form select,
+.formNuevoMsj form {
+
+	width: 100%;
+	padding: 1em;
+	border: none;
+	background:none;
+	border-bottom: 1px solid black;
+	outline: none;
+	color: whitesmoke;
+	font-size: 14px;
+
+}
+
+.formNuevoMsj form textarea{
+	width: 100%;
+	padding: .5em;
+	border: 1px solid black;
+	background:dimgrey;
+	border-bottom: 1px solid black;
+	outline: none;
+	color: whitesmoke;
+	font-size: 14px;
+}
+
+.formNuevoMsj form button{
+	background-color: red;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+	text-align: center;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+#btnVolver{
+	width: 98%;
+	background-color: red;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+	margin: 10px auto;
+	display: block;
+	text-align: center;
+	color: whitesmoke;
+	cursor: pointer;
+	font-size: 14px;
+
+}
+
+.formNuevoMsj > * {
+	padding: 0.5em;
+}
+
+.EnviarMsj:hover{
+	background-color: orangered;
+	transition: background-color 0.1s linear ;
+	color: black;
+	outline: none;
+}
+
+#btnVolver:hover{
+	background-color: grey;
+	transition: background-color 0.1s linear ;
+	color: black;
+	outline: none;
+}
+
+
+#modalRespuesta{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	box-shadow: 0 0 20px 0 black;
+	background-color: #171519;
+	margin-top: 40px;
+	border: none;
+
+}
+
+#modalRespuesta::backdrop{
+	background: rgba(0, 0, 0, .6);
+}
+
+.btnVolverR{
+	width: 98%;
+	background-color: red;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+	display: block;
+	text-align: center;
+	color: whitesmoke;
+	cursor: pointer;
+	font-size: 14px;
+	margin: auto;
+
+}
+
+.EnviarMsjR{
+	width: 98%;
+	background-color: red;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+	display: block;
+	text-align: center;
+	color: whitesmoke;
+	cursor: pointer;
+	font-size: 16px;
+	margin: auto;
+
+}
+
+.EnviarMsjR:hover{
+	background-color: orangered;
+	transition: background-color 0.1s linear ;
+	color: black;
+	outline: none;
+}
+
+.btnVolverR:hover{
+	background-color: grey;
+	transition: background-color 0.1s linear ;
+	color: black;
+	outline: none;
+}
+
+table tr{
+	border: 1px black solid;
+}
+
+.contenedorResponder{
+	background: #161518;
+	width: 800px;
+	margin: auto;
+	height: 450px;
+	margin-top: 80px;
+}
