@@ -289,7 +289,7 @@ if (isset($_POST['ActualizarActa'])) {
 	<?php
 		// ************************************* UNIDAD EJECUTIVA ************************************************
 		//Seleccionamos los voceros de la tabla de voceros
-		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = $idCC AND Unidad = 'Unidad Ejecutiva' ";
+		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = '$idCC' AND Unidad = 'Unidad Ejecutiva' ";
 		$traerVoceros = mysqli_query($conexion, $sqlVoceros);
 		$totalVoceros = $traerVoceros->num_rows;
 
@@ -406,7 +406,7 @@ if (isset($_POST['ActualizarActa'])) {
 	<?php
 		// ************************************* UNIDAD ADMINOISTRATIVA Y FINANCIERA ************************************************
 		//Seleccionamos los voceros de la tabla de voceros
-		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = $idCC AND Unidad = 'Unidad Administrativa y financiera' ORDER BY Votos ASC LIMIT 10";
+		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = '$idCC' AND Unidad = 'Unidad Administrativa y financiera' ORDER BY Votos ASC LIMIT 10";
 		$traerVoceros = mysqli_query($conexion, $sqlVoceros);
 		$totalVoceros = $traerVoceros->num_rows;
 
@@ -521,7 +521,7 @@ if (isset($_POST['ActualizarActa'])) {
 	<?php
 		// ************************************* UNIDAD CONTRALORIA SOCIAL ************************************************
 		//Seleccionamos los voceros de la tabla de voceros
-		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = $idCC AND Unidad = 'Unidad de Contraloria Social Comunal' ORDER BY Votos ASC LIMIT 10 ";
+		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = '$idCC' AND Unidad = 'Unidad de Contraloria Social Comunal' ORDER BY Votos ASC LIMIT 10 ";
 		$traerVoceros = mysqli_query($conexion, $sqlVoceros);
 		$totalVoceros = $traerVoceros->num_rows;
 
@@ -636,7 +636,7 @@ if (isset($_POST['ActualizarActa'])) {
 	<?php
 		// ************************************* UNIDAD ELECTORAL ************************************************
 		//Seleccionamos los voceros de la tabla de voceros
-		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = $idCC AND Unidad = 'Comision Electoral' ORDER BY Votos ASC LIMIT 10 ";
+		$sqlVoceros = "SELECT * FROM voceros WHERE id_cc = '$idCC' AND Unidad = 'Comision Electoral' ORDER BY Votos ASC LIMIT 10 ";
 		$traerVoceros = mysqli_query($conexion, $sqlVoceros);
 		$totalVoceros = $traerVoceros->num_rows;
 

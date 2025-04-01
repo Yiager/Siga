@@ -1,0 +1,58 @@
+.tablero{
+	display: inline-flex;
+	width: 25%;
+	background-image: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,250,255,1) 35%, rgba(2,100,100,1) 100%);
+	padding: 5px;
+	margin-left: 10%;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.Desplegable{
+	width: 30%;
+	display: inline-flex;
+	text-align: center;
+	margin-left: 5%;
+	padding: 5px;
+
+}	
+
+
+.lista-li{
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-flex;
+}
+
+li{
+	margin-left: 5px;
+}
+
+.botonDesplegable{
+	color: royalblue;
+	border: none;
+	background-color: white;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.botonDesplegable:hover{
+	border: none;
+}
+
+
+
+h5{
+	font-size: 14px;
+}
+
+i{
+	font-size: 14px;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+
+.entregas{
+	margin-left: 25%;
+}

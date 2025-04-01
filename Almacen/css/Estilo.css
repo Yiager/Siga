@@ -1,0 +1,622 @@
+*{
+	box-sizing: border-box;
+}
+
+.fondo{
+	background-image: url("../img/image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#form{
+	width: 1000px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	display: none;
+	box-shadow: 2px 2px 2px 2px black;
+	border-radius: 7px;
+}
+
+#form form{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr
+}
+
+#form form div{
+	margin: 0;
+	padding: 1em;
+}
+
+#form form .bloque{
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+}
+
+#form form button{
+	width: 20%;
+	display: inline-block;
+	margin: 5px auto;
+}
+
+#form form input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 20px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 15px;
+}
+
+#form form select{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 30px;
+	outline: none;
+	border: none;
+	scroll-behavior: smooth;
+}
+
+#form form h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.servicios {
+	width: 200px;
+}
+
+.servicios label, .servicios input{
+	margin: 5px 0;
+}
+
+#formEntrega{
+	width: 800px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	display: none;
+	box-shadow: 2px 2px 2px 2px black;
+	border-radius: 7px;
+}
+
+#formEntrega form{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr
+}
+
+#formEntrega form div{
+	margin: 0;
+	padding: 1em;
+}
+
+#formEntrega form .bloque{
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+}
+
+#formEntrega form button{
+	width: 20%;
+	display: inline-block;
+	margin: 5px auto;
+}
+
+#formEntrega form input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 20px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 15px;
+}
+
+#formEntrega form select{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 35px;
+	outline: none;
+	border: none;
+	scroll-behavior: smooth;
+}
+
+#formEntrega form h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#formResumen{
+	width: 800px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	display: none;
+	box-shadow: 2px 2px 2px 2px black;
+	border-radius: 7px;
+}
+
+#formResumen form{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr
+}
+
+#formResumen form div{
+	margin: 0;
+	padding: 1em;
+}
+
+#formResumen form .bloque{
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+}
+
+#formResumen form button{
+	width: 20%;
+	display: inline-block;
+	margin: 5px auto;
+}
+
+#formResumen form input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 20px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 15px;
+}
+
+#formResumen form select{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 35px;
+	outline: none;
+	border: none;
+	scroll-behavior: smooth;
+}
+
+#formResumen form h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#formDetallado{
+	width: 800px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	display: none;
+	box-shadow: 2px 2px 2px 2px black;
+	border-radius: 7px;
+}
+
+#formDetallado form{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr
+}
+
+#formDetallado form div{
+	margin: 0;
+	padding: 1em;
+}
+
+#formDetallado form .bloque{
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+}
+
+#formDetallado form button{
+	width: 20%;
+	display: inline-block;
+	margin: 5px auto;
+}
+
+#formDetallado form input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type='number']{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 20px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 15px;
+}
+
+#formDetallado form select{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 35px;
+	outline: 0px;
+	border: 0px;
+	scroll-behavior: smooth;
+}
+
+#formDetallado form h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+#formVer{
+	width: 800px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 60px;
+	box-shadow: 2px 2px 2px 2px black;
+	border-radius: 7px;
+	background:whitesmoke;
+}
+
+#formVer form{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr
+}
+
+#formVer form div{
+	margin: 0;
+	padding: 1em;
+}
+
+#formVer form .bloque{
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+}
+
+#formVer form input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 20px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 15px;
+	background: none;
+}
+
+#formVer form select{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 35px;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+#formVer form h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#formVer a{
+	text-align: center;
+	padding: 10px 100px ;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: whitesmoke;
+	background: darkslateblue;
+	border-radius: 2px;
+
+}
+
+#formVer a:hover{
+	background: slateblue;
+}
+
+
+
+#formEditar{
+	width: 800px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 40px;
+	box-shadow: 2px 2px 2px 2px black;
+	border-radius: 7px;
+	background: whitesmoke;
+}
+
+#formEditar form{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr
+}
+
+#formEditar form .bloque{
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+}
+
+#formEditar form button{
+	width: 20%;
+	display: inline-block;
+	margin: 5px auto;
+}
+
+#formEditar form div{
+	margin: 0;
+	padding: 1em;
+}
+
+#formEditar form input[type="text"], input[type="email"], input[type="date"]{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 20px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 15px;
+	background: none;
+}
+
+#formEditar form select{
+	display: flex;
+	width: 100%;
+	margin: 0 0 20px 0;
+	height: 35px;
+	outline: none;
+	border: none;
+}
+
+#formEditar form h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#formEditar a{
+	text-align: center;
+	padding: 10px 100px ;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: whitesmoke;
+	background: darkslateblue;
+	border-radius: 2px;
+
+}
+
+#formEditar a:hover{
+	background: slateblue;
+}
+
+.agregar{
+	height: 30px;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 10px;
+	border: 1px solid #3e62ad;
+	cursor: pointer;
+	font-weight: 200;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.agregar:hover{
+	background: #3e62ad;
+	color: whitesmoke;
+}
+
+.Volver{
+	height: 30px;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 10px;
+	border: 1px solid #3e62ad;
+	cursor: pointer;
+	border-radius: 2px;
+	font-weight: 200;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.Volver:hover{
+	background: #008080;
+	color: whitesmoke;
+	border: 1px solid #008080;
+}
+
+
+#table {
+	width: 1200px;
+	margin: auto;
+
+}
+
+#table table{
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
+
+}
+
+#table table tr{
+	text-align: center;
+}
+
+#table table th{
+	border-bottom: 2px solid black;
+	padding: 15px 15px 0 15px;
+}
+
+#table table td {
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.fas{
+	color: lightblue;
+	font-size: 30px;
+}
+
+.botones{
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin-top: 30px;
+}
+
+#Entregas{
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	background: grey;
+	color: whitesmoke;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+#Entregas:hover{
+	background: darkgrey;
+}
+
+#Resumen{
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	background: grey;
+	color:whitesmoke;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+#Resumen:hover{
+	background: darkgrey;
+}
+
+#Detallado{
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	background: grey;
+	color: whitesmoke;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+#Detallado:hover{
+	background: darkgrey;
+}
+
+.listado{
+	text-decoration: none;
+	color: black;
+	background: darkgrey;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 12px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.listado:hover{
+	background: gray;
+}
+
+.impEntrega{
+	text-decoration: none;
+	color: black;
+	background: darkgrey;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 12px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.impEntrega:hover{
+	background: gray;
+}
+
+#buscar{
+	height: 20px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+#Agregar{
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	background: yellowgreen;
+	color: black;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+#Agregar:hover{
+	background: lightseagreen;
+	color: whitesmoke;
+}
+
+.paginador {
+	display: flex;
+	width: 100%;
+	margin-top: 30px;
+	list-style-type: none;
+}
+
+.paginador li{
+	margin: 0 15px;
+}
+
+.paginador li a{
+	padding: 8px;
+	text-decoration: none;
+	background: rgba(66, 139, 202, .7);
+	color: whitesmoke;
+	border-radius: 4px;
+}
+
+.paginador li a:hover{
+	background: rgba(66, 139, 202, .9);
+}
+
+h2{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.icono{
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.imagen{
+	transition: 0.5s;
+	object-fit: cover;
+	background: none;
+}
+
+.imagen:hover{
+	transform: scale(4);
+}

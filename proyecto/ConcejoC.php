@@ -118,15 +118,13 @@ $paginas = ceil($registrosTotal/$registros_por_pagina);
 //Variable que indica desde que registro se debe iniciar en cada pagina
 $Iniciar_desde = ($_GET['pagina']-1)*$registros_por_pagina;
 
-
 if(!$_GET){
 	header('Location: ConcejoC.php?pagina=1');
 }
 
-if($_GET['pagina']>$paginas || $_GET['pagina'] <= 0){
+/*if($_GET['pagina']>$paginas || $_GET['pagina'] <= 0 || $_GET['pagina'] == 0){
 	header('Location: ConcejoC.php?pagina=1');
-
-}
+}*/
 
 
 

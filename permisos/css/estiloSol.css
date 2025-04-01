@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #1590bd;
+	margin: 0;
+	padding: 0;
+	font-family: 'Pixelify Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background: #111;
+	height: 50px;
+	color: whitesmoke;
+	font-style: italic;
+	padding: 10px 40px;
+}
+
+.barraNav{
+	position: relative;
+	padding: 20px 0px;
+	display: flex;
+	justify-content: right;
+
+}
+
+
+ul{
+	list-style-type: none;
+	width: 30%;
+	display: inline;
+}
+
+ul li{
+	display: inline;
+	margin: 0 30px;
+}
+
+button{
+	width: 100px;
+	height: 40px;
+	border: none;
+	cursor:pointer;
+	background: #bfc1c2;
+	border-radius: 5%;
+}
+
+button:hover{
+	background: #dcdcdc;
+}
+
+.enlace{
+	padding: 0;
+	background: none;
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 0 3px;
+}
+
+.formularioSolP p{
+	padding: 0 8px;
+}
+
+.formularioSolP form{
+	display: grid;
+	grid-template-columns:  1fr 1fr ;
+	justify-items: center;
+}
+
+.formularioSolP form .bloque{
+	grid-column: 1 / 4;
+}
+
+.formularioSolC form{
+	display: grid;
+	grid-template-columns:  1fr 1fr ;
+	justify-items: center;
+}
+
+.formularioSolC form .bloque{
+	grid-column: 1 / 4;
+}
+
+.formularioSolC p{
+	padding: 0 8px;
+}
+
+.formularioSolC, .formularioSolP{
+	margin: 0 auto;
+	width: 800px;
+	height: 400px;
+	padding: 20px;
+	display: none;
+	background: #72A0C1;
+}
+
+form{
+	width: 100%;
+}
+
+form h2{
+	text-align: center;
+}
+
+form input,
+form select{
+	width: 100%;
+	height: 25px;
+	border: none;
+	margin: 10px 0;
+	border-radius: 2px;
+	border-bottom: 1px solid black;
+	outline: none;
+	background: transparent;
+}
+
+form input[type="submit"]{
+	height: 50px;
+	cursor: pointer;
+	background: lightgreen;
+	text-transform: uppercase;
+	border: none;
+}
+
+form input[type="submit"]:hover{
+	background: green;
+	color: white;
+}
+
+.tablaSol{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+table{
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	border-collapse: collapse;
+	font-size:14px;
+
+}
+
+table tr,th,td{
+	padding: 15px;
+}
+
+table td{
+	padding: 10px 0px;
+}
+
+table thead{
+	background: rgba(10, 10, 10, .9);
+	color: whitesmoke;
+	text-align: center;
+}
+
+table tbody{
+	background: rgba(230, 230, 230, 1);
+}
+
+.buscador{
+	height: 30px;
+	border: none;
+	outline: none;
+	margin-bottom: 5px;
+	padding: 0 10px;
+	border-radius: 2px;
+
+}
+
+.barraBtn ul{
+	width: 70%;
+}
+
+.barraBtn{
+	margin: auto;
+	width: 500px;
+	display: flex;
+	padding: 1px;
+	display: none;
+}
+
+.btnVolver{
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	padding: 10px;
+	color: black;
+	border: none;
+	text-decoration: none;
+	border-radius: 5%;
+	background: #bfc1c2;
+	text-align: center;
+
+}
+
+.btnVolver:hover{
+	background: #dcdcdc;
+}
+
+.titulo{
+	text-align: center;
+}
+
+
+.periodo{
+	display: none;
+}
+
+#paginacion{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.paginador{
+	width: 100%;
+}
+
+.paginador li{
+	margin: 10px 3px;
+}
+
+.paginador li a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	background: #111;
+	border-radius: 5px;
+	margin: 25px 0;
+}
+
+.paginador li a:hover{
+	background: darkslategrey;
+}
+
+.paginador li a:active{
+	background: darkslategrey;
+}
+
+.total{
+	margin-top: 10px;
+}
