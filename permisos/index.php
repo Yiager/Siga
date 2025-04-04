@@ -54,6 +54,7 @@ if(!empty($_POST))
 </head>
 <body>
 	
+	<!-- FORMULARIO DEL LOGIN -->
 	<div class="contenedor">
 		<form class="formLogin" action="<?php $_SERVER['PHP_SELF'] ?>" method="POST">
 
